@@ -1,0 +1,10 @@
+cradle:
+  cabal:
+    - path: "./src"
+      component: "lib:http-proxy"
+
+    - path: "./examples"
+      component: "http-proxy:exe:http-proxy"
+
+    - path: "./test"
+      component: "http-proxy:test:http-proxy-tests"
